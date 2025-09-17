@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { BACKEND_URL } from "@/config";
 import { Button } from "@/components/ui/button";
 import { NavBarLogedIn } from "@/components/components/navBarLogedIn.tsx";
-import { NavBarUnlogedIn } from "@/components/components/navBarUnlogedIn";
+import { NavBarUnlogedIn } from "@/components/components/navBarUnlogedIn.tsx";
 
 interface Book {
     id: number,
